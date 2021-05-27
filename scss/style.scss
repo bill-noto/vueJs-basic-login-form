@@ -1,0 +1,50 @@
+#app {
+    font-family: 'open sans', helvetica, sans-serif;
+    background-color: #e7e8eb;
+    border: 1px solid black;
+    #flex {
+        display: flex;
+        .one {
+            display: block;
+            width: 50%;
+            border-right: 1px dotted black;
+            & h1 {
+                text-align: center;
+            }
+            & p {
+                text-align: center;
+                padding: 2%;
+            }
+        }
+        .two {
+            display: block;
+            width: 50%;
+            form {
+                margin: 0 auto;
+                text-align: center;
+                & div {
+                    margin: 2% 0;
+                }
+                .last {
+                    margin: 4%;
+                }
+                & h2 {
+                    margin: 2% 0;
+                }
+                .noMargin {
+                    margin-bottom: 0;
+                }
+                input {
+                    width: 80%;
+                    padding: 1%;
+                }
+                #hide {
+                    width: auto;
+                }
+                button {
+                    width: 25%;
+                }
+            }
+        }
+    }
+}

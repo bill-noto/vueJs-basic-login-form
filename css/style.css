@@ -1,0 +1,52 @@
+#app {
+  font-family: "open sans", helvetica, sans-serif;
+  background-color: #e7e8eb;
+  border: 1px solid black;
+}
+#app #flex {
+  display: flex;
+}
+#app #flex .one {
+  display: block;
+  width: 50%;
+  border-right: 1px dotted black;
+}
+#app #flex .one h1 {
+  text-align: center;
+}
+#app #flex .one p {
+  text-align: center;
+  padding: 2%;
+}
+#app #flex .two {
+  display: block;
+  width: 50%;
+}
+#app #flex .two form {
+  margin: 0 auto;
+  text-align: center;
+}
+#app #flex .two form div {
+  margin: 2% 0;
+}
+#app #flex .two form .last {
+  margin: 4%;
+}
+#app #flex .two form h2 {
+  margin: 2% 0;
+}
+#app #flex .two form .noMargin {
+  margin-bottom: 0;
+}
+#app #flex .two form input {
+  width: 80%;
+  padding: 1%;
+}
+#app #flex .two form #hide {
+  width: auto;
+}
+#app #flex .two form button {
+  width: 25%;
+}
+
+/*# sourceMappingURL=style.css.map */
